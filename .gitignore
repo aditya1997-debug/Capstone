@@ -1,0 +1,80 @@
+# Compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# IDE or editor-specific files
+.vscode/
+.idea/
+
+# Compiled or built files
+*.pyz
+*.pyzw
+*.whl
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Database files
+*.sqlite3
+
+# Local development settings
+local_settings.py
+
+# Logs
+*.log
+logs/
+LogFiles/
+
+# Media and static files
+media/
+static/
+
+# Temporary files
+*.bak
+*.swp
+*.tmp
+
+# Compiled translations
+locale/
+
+# Temporary and development files
+*.db
+*.db.sqlite3
+db.sqlite3
+db.sqlite3-journal
+*.sqlite
+*.sql
+
+# Ignore .env files containing sensitive information
+.env
+
+# Ignore cache and compiled files for Jupyter notebooks
+.ipynb_checkpoints/
+
+# Ignore generated or compiled documentation
+*.html
+/_build/
+/doc/
+
+# Ignore Docker related files
+docker-compose.yml
+.dockerignore
+Dockerfile
+
+# Ignore deployment-related files
+*.config
+*.ini
+*.conf
+*.yaml
+*.yml
